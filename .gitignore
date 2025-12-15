@@ -1,0 +1,111 @@
+# Игнорируемые директории
+static/uploads/*
+static/results/*
+!static/uploads/.gitkeep
+!static/results/.gitkeep
+models/trained/  # обученные модели (можно заменить на конкретные файлы)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+presentation&matirials
+
+# Временные файлы
+*.swp
+*.swo
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Временные файлы Python
+.ipynb_checkpoints
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Файлы логов
+*.log
+logs/
+
+# Файлы датасетов (если есть)
+#data/
+#datasets/
+#*.zip
+#*.tar
+#*.tar.gz
+
+# Файлы конфигурации с секретами
+.env
+.env.local
+secrets.yaml
+config.local.yaml
+
+# Временные файлы результатов
+*.jpg
+*.png
+*.jpeg
+!test_images/  # если нужно сохранить тестовые изображения
+
+# Файлы YOLO
+runs/  # папка с результатами тренировок YOLO
+
+# Файлы кэша
+.cache/
+.pytest_cache/
+
+# Файлы миграций БД (если будут)
+migrations/
+
+# Файлы операционной системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# Файлы виртуального окружения
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Файлы Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
